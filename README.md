@@ -4,9 +4,12 @@ Ax
 windows service call  GUI  client 
   
   
-  show demo 
+show demo:
+
   1 cmd /c  SCHTASKS /Create /SC ONSTART /TN Helloworld /TR calc
+
   2 InstallUtil install .net assembly 
+
   3 net start xxxxx
   
 Key step:
